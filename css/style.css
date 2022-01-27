@@ -343,16 +343,16 @@ nav input {
 }
 
 .my-footer {
-    background: lightcoral;
+    background: gray;
     height: 80px;
 }
 
 .aside1 {
-    background: gold;
+    background: gray;
 }
 
 .aside2 {
-    background: hotpink;
+    background: gray;
 }
 
 @media all and (min-width: 800px) {
@@ -368,7 +368,7 @@ nav input {
 }
 
 .column-layout {
-    background: rgb(179, 7, 7);
+    background: gray;
 }
 .my-column {
     padding: 20px;
@@ -379,19 +379,25 @@ nav input {
     flex: 3;
     order: 2;
 
-    background: yellowgreen;
+    background: gray;
+    border: 1px solid #333;
+    border-radius: 13px;
 }
 
 .sidebar-left {
     flex: 1;
     order: 1;
-    background: purple;
+    background: gray;
+    border: 1px solid #333;
+    border-radius: 13px;
 }
 
 .sidebar-right {
     flex: 1;
     order: 3;
-    background: orange;
+    background: gray;
+    border: 1px solid #333;
+    border-radius: 13px;
 }
 
 @media (min-width: 900px) {
