@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #ccc;
 }
 nav {
     position: -webkit-sticky;
@@ -345,6 +347,8 @@ nav input {
 .my-footer {
     background: gray;
     height: 80px;
+    font-size: 0.5rem;
+    color: lightblue;
 }
 
 .aside1 {
@@ -406,4 +410,9 @@ nav input {
         justify-content: space-between;
         margin: 0;
     }
+}
+
+.current {
+    background-color: yellow;
+    color: red;
 }
